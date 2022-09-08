@@ -1,0 +1,73 @@
+
+> bufferutil@4.0.6 install C:\Users\yichu\Desktop\Solidity\lesson7\node_modules\bufferutil
+> node-gyp-build
+
+
+> secp256k1@4.0.3 install C:\Users\yichu\Desktop\Solidity\lesson7\node_modules\secp256k1
+> node-gyp-build || exit 0
+
+
+> utf-8-validate@5.0.9 install C:\Users\yichu\Desktop\Solidity\lesson7\node_modules\utf-8-validate
+> node-gyp-build
+
+
+> keccak@3.0.2 install C:\Users\yichu\Desktop\Solidity\lesson7\node_modules\keccak
+> node-gyp-build || exit 0
+
+
+> core-js-pure@3.25.1 postinstall C:\Users\yichu\Desktop\Solidity\lesson7\node_modules\core-js-pure
+> node -e "try{require('./postinstall')}catch(e){}"
+
+[96mThank you for using core-js ([94m https://github.com/zloirock/core-js [96m) for polyfilling JavaScript standard library![0m
+
+[96mThe project needs your help! Please consider supporting of core-js:[0m
+[96m>[94m https://opencollective.com/core-js [0m
+[96m>[94m https://patreon.com/zloirock [0m
+[96m>[94m bitcoin: bc1qlea7544qtsmj2rayg0lthvza9fau63ux0fstcz [0m
+
+[96mAlso, the author of core-js ([94m https://github.com/zloirock [96m) is looking for a good job -)[0m
+
+
+> es5-ext@0.10.62 postinstall C:\Users\yichu\Desktop\Solidity\lesson7\node_modules\es5-ext
+>  node -e "try{require('./_postinstall')}catch(e){}" || exit 0
+
+
+> web3-shh@1.7.4 postinstall C:\Users\yichu\Desktop\Solidity\lesson7\node_modules\web3-shh
+> echo "WARNING: the web3-shh api will be deprecated in the next version"
+
+"WARNING: the web3-shh api will be deprecated in the next version"
+
+> web3-bzz@1.7.4 postinstall C:\Users\yichu\Desktop\Solidity\lesson7\node_modules\web3-bzz
+> echo "WARNING: the web3-bzz api will be deprecated in the next version"
+
+"WARNING: the web3-bzz api will be deprecated in the next version"
+
+> web3@1.7.4 postinstall C:\Users\yichu\Desktop\Solidity\lesson7\node_modules\web3
+> echo "WARNING: the web3-shh and web3-bzz api will be deprecated in the next version"
+
+"WARNING: the web3-shh and web3-bzz api will be deprecated in the next version"
++ @nomiclabs/hardhat-etherscan@3.0.0
++ hardhat@2.9.9
++ @nomicfoundation/hardhat-chai-matchers@1.0.0
++ chai@4.2.0
++ hardhat-gas-reporter@1.0.8
++ solidity-coverage@0.7.21
++ ethers@5.4.7
++ @nomiclabs/hardhat-ethers@2.0.0
++ @nomicfoundation/hardhat-network-helpers@1.0.0
++ @nomicfoundation/hardhat-toolbox@1.0.1
++ typechain@8.1.0
++ @typechain/hardhat@6.1.2
++ @typechain/ethers-v5@10.1.0
++ @types/chai@4.2.0
++ @types/mocha@9.1.0
++ ts-node@10.9.1
++ @types/node@18.7.16
++ typescript@4.8.2
+added 898 packages from 688 contributors and audited 902 packages in 141.937s
+
+135 packages are looking for funding
+  run `npm fund` for details
+
+found 4 moderate severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details
